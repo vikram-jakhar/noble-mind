@@ -54,7 +54,7 @@ const ChooseUs = () => {
                     </Swiper>
                     <div className="swiper-pagination"><span className='swiper-pagination-bullet'></span></div>
                 </div>
-                <Image src={Meeting} height={527} width={1140} className='w-full sm:mt-[31px] mt-4' />
+                <Image src={Meeting} alt='meeting' height={527} width={1140} className='w-full sm:mt-[31px] mt-4' />
                 <span className='absolute top-[8%] max-md:top-[14%] left-0 max-md:left-6 z-50'> <Elipse /></span>
                 <span className='absolute bottom-[3%] max-md:bottom-[-18%] right-0 z-50'> <Elipse /></span>
             </div>
