@@ -11,16 +11,16 @@ const Footer = () => {
                             <span><Ficon /></span>
                             <p className='Exo text-base font-normal text-white mt-[28px] mb-4'>Follow Us</p>
                             <div className='flex gap-[16px]'>
-                                <a href='' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
+                                <a href='https://www.facebook.com/' target='_blank' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
                                     <Facebook />
                                 </a>
-                                <a href='' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
+                                <a href='https://www.instagram.com/' target='_blank' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
                                     <Insta />
                                 </a>
-                                <a href='' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
+                                <a href='https://www.twitter.com/' target='_blank' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
                                     <Twitter />
                                 </a>
-                                <a href='' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
+                                <a href='https://www.linkedin.com/' target='_blank' className='w-[44px] justify-center items-center h-[44px] border-2 rounded-full border-[white] flex'>
                                     <In />
                                 </a>
 
@@ -30,19 +30,19 @@ const Footer = () => {
                         <div className="lg:col-span-1 col-span-3 flex flex-col max-lg:items-center lg:items-end">
                             <ul className='max-w-[122px]'>
                                 <li className='font-Outfit text-base font-semibold text-white pb-4'>Maine</li>
-                                <li><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="">Home</a></li>
-                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="">About Us</a></li>
-                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="">services</a></li>
-                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="">Why Choose Us</a></li>
+                                <li><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="#Home">Home</a></li>
+                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="#About">About Us</a></li>
+                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="#services">services</a></li>
+                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="#ChooseUs">Why Choose Us</a></li>
                             </ul>
                         </div>
                         <div className="lg:col-span-1 col-span-2  flex flex-col max-lg:items-center  items-end">
                             <ul className='max-w-[149px]'>
                                 <li className='font-Outfit text-base font-semibold text-white pb-4'>Legal</li>
-                                <li><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="">Term & Conduction</a></li>
-                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5] ' href="">Privacy Policy</a></li>
-                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5] ' href="">Contact</a></li>
-                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5] ' href="">(629) 555-0129</a></li>
+                                <li><a className='font-Outfit text-base font-semibold text-[#B8B8B5]' href="#term">Term & Conduction</a></li>
+                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5] ' href="#privacy">Privacy Policy</a></li>
+                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5] ' href="#contant">Contact</a></li>
+                                <li className='mt-[14px]'><a className='font-Outfit text-base font-semibold text-[#B8B8B5] ' href="#">(629) 555-0129</a></li>
                             </ul>
                         </div>
                     </div>
