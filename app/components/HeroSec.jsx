@@ -4,7 +4,7 @@ import React from 'react'
 const HeroSec = () => {
     return (
         <>
-            <div id='Home' className='bg-[url(../public/Assets/Img/heroimg.png)] min-h-[720px] max-sm:min-h-[420px] bg-cover bg-center  bg-no-repeat flex items-center !mb-[75px] max-sm:!mb-[25px] md:mt-[-100px]'>
+            <div id='Home' className='bg-[url(../public/Assets/Img/heroimg.png)] min-h-[720px] max-sm:min-h-[420px] bg-cover bg-center  bg-no-repeat flex items-center !mb-[75px] max-sm:!mb-[25px] md:mt-[-100px] 2xl:mt-[50px] '>
                 <div className=' container mx-auto ps-3 relative'>
                     <div className=' '>
                         <p className='font-Exo text-[16px] text-[#131200] flex items-center gap-[6px] font-normal leading-[24px]'><span> <AiNoble /></span> AI With Noble Mind</p>

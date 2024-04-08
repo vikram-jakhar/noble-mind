@@ -69,7 +69,7 @@ const Faq = () => {
                     <Accordion
                         onClick={() => AccordionOpen(2)}
                         className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014]
-            cursor-pointer border bg-whitelg:p-6 p-2 mt-3 ${open == 2
+            cursor-pointer border bg-white lg:p-6 p-2 mt-3 ${open == 2
                                 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]"
                                 : "shadow-none border-[#EBDAF8]"
                             }`}
