@@ -26,7 +26,7 @@ const NavSec = () => {
                     <li className=' lg:pr-10'><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black  text-base leading-6 font-normal' href="#Faq">FAQ</a></li>
                     <li> <BTnComn text="Contact Us" /></li>
                 </ul>
-                <Hamburger hideOutline={false} />
+            
                 <div className='lg:hidden' onClick={setopen}>
                     {first ? (
                         <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer mt-[-30px] mr-[-10px] ">
