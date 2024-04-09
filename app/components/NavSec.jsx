@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import { Logo } from '@/public/Assets/OnlySvgFile';
 import BTnComn from './BTnComn';
-import { Spin as Hamburger } from 'hamburger-react'
 const NavSec = () => {
     const [first, setfirst] = useState(false);
     function setopen() {
@@ -30,7 +29,7 @@ const NavSec = () => {
                 <div className='lg:hidden' onClick={setopen}>
                     {first ? (
                         <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer mt-[-30px] mr-[-10px] ">
-                            <span className="bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 rotate-[53deg] -bottom-[45px]"></span>
+                            <span className="bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 rotate-[53deg] -bottom-[31px]"></span>
                             <span className="bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 -rotate-45 -bottom-[11px]"></span>
                         </div>
                     ) : (
