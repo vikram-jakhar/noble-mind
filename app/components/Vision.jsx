@@ -10,7 +10,7 @@ const Vision = () => {
             <div id='About' className=' container mx-auto px-3  max-lg:flex max-lg:justify-center relative overflow-hidden'>
                 <div className='grid lg:grid-cols-2 gap-[24px] !py-[75px] max-sm:!py-[25px]'>
                     <div className="col-span-1">
-                        <Image src={visionImg} alt='' width={544} height={567} className=' rounded-tr-[50px]' />
+                        <Image src={visionImg} alt='visionim' width={544} height={567} className=' rounded-tr-[50px]' />
                     </div>
                     <div className="col-span-1">
                         <p className='font-Exo pt-[16px] max-sm:pt-[0] text-[24px]  font-normal leading-[24px] max-sm:text-base flex gap-[6px] items-center'> <span><AiNoble /></span>About Us</p>
